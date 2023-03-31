@@ -1,0 +1,19 @@
+img {
+  height: 5rem;
+  width: 10rem;
+}
+
+.top {
+  font-size: 8rem;
+  color: white;
+  font-weight: 900;
+}
+
+.card {
+  border: none;
+  background-color: transparent;
+}
+
+.five {
+  color: black;
+}

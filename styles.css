@@ -1,0 +1,95 @@
+#lastpage {
+  background-color: #9dcdd4;
+}
+#lastpage1 {
+  background-color: #9dcdd4;
+}
+
+.head {
+  color: white;
+  background-color: black;
+}
+/* .head h1 {
+    
+} */
+.container .first {
+  background-color: black;
+  color: white;
+}
+.container .second {
+  background-color: white;
+}
+
+.container .third {
+  background-color: black;
+  color: white;
+}
+.third a {
+  text-decoration: none;
+  color: white;
+}
+
+.first a {
+  text-decoration: none;
+  color: white;
+}
+.head p span {
+  padding-left: 5rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-right: 5rem;
+}
+.head p {
+  font-size: xx-large;
+}
+
+@media (max-width: 716px) {
+  .head p {
+    font-size: x-large;
+  }
+}
+@media (max-width: 582px) {
+  .head p {
+    font-size: large;
+  }
+}
+@media (max-width: 490px) {
+  .head p {
+    font-size: small;
+  }
+  .head p span {
+    padding-left: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.75rem;
+  }
+}
+/* @media (max-width: 750px) {
+  .head h1 span {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+  }
+} */
+
+.card2,
+.card3 {
+  background-color: black;
+  color: white;
+}
+.card1 {
+  background-color: white;
+  color: black;
+}
+
+.row1 img {
+  /* /* width: 20rem; */
+  height: 30rem;
+  object-fit: cover;
+}
+
+.sweets-p {
+  background-color: white;
+  border-radius: 40px;
+}

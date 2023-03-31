@@ -1,0 +1,58 @@
+#lastpage1 {
+  background-color: #9dcdd4;
+}
+.head {
+  color: white;
+  background-color: black;
+}
+
+.head p span {
+  padding-left: 5rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-right: 5rem;
+}
+.head p {
+  font-size: xx-large;
+}
+@media (max-width: 716px) {
+  .head p {
+    font-size: x-large;
+  }
+}
+@media (max-width: 582px) {
+  .head p {
+    font-size: large;
+  }
+}
+@media (max-width: 490px) {
+  .head p {
+    font-size: small;
+  }
+  .head p span {
+    padding-left: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.75rem;
+  }
+}
+.card {
+  height: 20rem;
+  border-radius: 20px;
+  border: none;
+}
+.card img {
+  height: 20rem;
+  border-radius: 20px;
+}
+
+.col2 .card {
+  height: 20rem;
+  border-radius: 20px;
+  border: none;
+}
+
+.col2 .card img {
+  height: 20rem;
+  border-radius: 20px;
+}

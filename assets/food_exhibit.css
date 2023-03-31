@@ -1,0 +1,44 @@
+.text1 p span {
+  padding-left: 5rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-right: 5rem;
+}
+.text1 p {
+  font-size: xx-large;
+}
+@media (max-width: 716px) {
+  .text1 p {
+    font-size: x-large;
+  }
+}
+@media (max-width: 582px) {
+  .text1 p {
+    font-size: large;
+  }
+}
+@media (max-width: 490px) {
+  .text1 p {
+    font-size: small;
+  }
+  .text1 p span {
+    padding-left: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.75rem;
+  }
+}
+
+.card1 {
+  background-color: black;
+  color: white;
+}
+
+.card1 img {
+  height: 100%;
+  width: 100%;
+}
+
+.card2 img {
+  border: white solid 10px;
+}

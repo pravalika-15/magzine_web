@@ -1,0 +1,72 @@
+#lastpage1 {
+  background-color: #9dcdd4;
+}
+.head {
+  color: white;
+  background-color: black;
+}
+
+.head p span {
+  padding-left: 5rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-right: 5rem;
+}
+.head p {
+  font-size: xx-large;
+}
+@media (max-width: 716px) {
+  .head p {
+    font-size: x-large;
+  }
+}
+@media (max-width: 582px) {
+  .head p {
+    font-size: large;
+  }
+}
+@media (max-width: 490px) {
+  .head p {
+    font-size: xx-small;
+  }
+  .head p span {
+    padding-left: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.75rem;
+  }
+}
+.card1 {
+  border-radius: 30px;
+  background-color: white;
+}
+
+.card {
+  border-radius: 50%;
+  width: 20rem;
+  height: 20rem;
+  background-image: url("https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  /* height: 200px; */
+}
+
+/* .card img {
+  border-radius: 50%;
+  width: 20rem;
+  height: 20rem;
+} */
+
+#cards img {
+  border-radius: 50%;
+  width: 25rem;
+  height: 25rem;
+}
+
+/* #text1 {
+  display: none;
+} */
+
+@media (max-width: 490px) {
+  #text1 {
+    display: inline-block;
+  }
+}

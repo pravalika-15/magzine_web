@@ -1,0 +1,29 @@
+.circle-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.circle-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.circle-text {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.circle-text h5,
+.circle-text p {
+  margin: 0;
+}

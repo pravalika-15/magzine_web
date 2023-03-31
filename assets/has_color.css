@@ -1,0 +1,19 @@
+.texttt {
+  display: inline-block;
+  background-color: white;
+  border-radius: 45px;
+  /* padding-right: 3rem;
+  padding-left: 3rem; */
+  padding: 2rem;
+}
+img {
+  height: 40rem;
+}
+
+.card {
+  padding: none;
+}
+
+#cards img {
+  height: 8rem;
+}

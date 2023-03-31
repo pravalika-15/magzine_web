@@ -1,0 +1,91 @@
+#lastpage1 {
+  background-color: #9dcdd4;
+}
+.head {
+  color: white;
+  background-color: black;
+}
+
+.head p span {
+  padding-left: 5rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-right: 5rem;
+}
+.head p {
+  font-size: xx-large;
+}
+@media (max-width: 716px) {
+  .head p {
+    font-size: x-large;
+  }
+}
+@media (max-width: 582px) {
+  .head p {
+    font-size: large;
+  }
+}
+@media (max-width: 490px) {
+  .head p {
+    font-size: small;
+  }
+  .head p span {
+    padding-left: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.75rem;
+  }
+}
+
+.card {
+  /* border: black solid 3px; */
+}
+
+.card img {
+  height: 25rem;
+  /* width: 10rem; */
+}
+
+.head2 {
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  font-size: smaller;
+}
+.head1 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+@media (max-width: 490px) {
+  .head1 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+.links a {
+  text-decoration: none;
+  color: black;
+}
+
+.links a:hover {
+  text-decoration: underline;
+  font-size: large;
+  transition: 3ms;
+}
+
+.sat {
+  color: white;
+  font-size: 8rem;
+  font-weight: bolder;
+}
+
+@media (max-width: 490px) {
+  .sat {
+    font-size: 2rem;
+  }
+}
+
+.card {
+  background-color: #9dcdd4;
+  border: none;
+}
